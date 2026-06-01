@@ -1,0 +1,22 @@
+def calculate_average(nums):
+    total = sum(nums)
+    count = len(nums)
+    total / count
+
+
+nums = [10, 15, 20]
+result = calculate_average()
+print("The average is:", result)
+
+
+Если оставить таким образом, то ошибок в линтере не возникает. 
+Но при этом при запуске получаем 
+"
+	Traceback (most recent call last):
+  	File "/home/u/git/otus_pyhon_2026/first_hwork/fix_me.py", line 8, in <module>
+    	result = calculate_average()
+             ^^^^^^^^^^^^^^^^^^^
+	TypeError: calculate_average() missing 1 required positional argument: 'nums'
+"
+Формально домашнее задание выполненно, даже не смотря на то что запуск скрипта ничего не дает. 
+
