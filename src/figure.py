@@ -14,11 +14,3 @@ class Figure(ABC):
         if not isinstance(other_figure, Figure):
             raise ValueError("Should be a Figure")
         return self.get_area + other_figure.get_area
-
-
-
-
-
-
-
-

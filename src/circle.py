@@ -1,5 +1,6 @@
 from src.figure import Figure
 
+
 class Circle(Figure):
     def __init__(self, radius):
         if radius <= 0:
