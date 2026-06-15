@@ -5,9 +5,10 @@ s = Square(5)
 c = Circle(10)
 t = Triangle(4, 3, 5)
 
+print(c.add_area(t))
 print(r.add_area(s))
 print(r.add_area(c))
 print(r.add_area(t))
 print(s.add_area(c))
 print(s.add_area(t))
-print(c.add_area(t))
+
