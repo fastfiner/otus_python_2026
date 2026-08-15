@@ -28,3 +28,11 @@ def test_dog_breeds_list():
 # data = response.json()
 # print("Ссылка на фото гончей:", data["message"])
 # print(data)
+
+
+
+
+
+
+
+
